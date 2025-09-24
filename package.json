@@ -4,8 +4,8 @@
   "description": "for recipes",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --public-url /"
   },
   "author": "Hasan",
   "license": "ISC",
